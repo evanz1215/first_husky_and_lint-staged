@@ -37,6 +37,6 @@
     "vitest": "^0.34.6"
   },
   "lint-staged": {
-    "*.vue": "prettier --write src/"
+    "src/**/*.{vue,js,jsx,ts,tsx,css,scss,sass,less,html,json}": "prettier --write --ignore-unknown"
   }
 }
