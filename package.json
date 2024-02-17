@@ -34,5 +34,8 @@
     "start-server-and-test": "^2.0.1",
     "vite": "^4.4.11",
     "vitest": "^0.34.6"
+  },
+  "lint-staged": {
+    "*.vue": "eslint --cache --fix"
   }
 }
